@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WEBPAGE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./assests/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="lang-menu">
+        <h6>Country to Deliver</h6>
+        <div class="selected-lang">
+            English
+        </div>
+        <ul>
+          <li>
+            <a href="#" class="ph">Phil.</a>
+        </li>
+        <li>
+            <a href="#" class="jp">Japan</a>
+        </li>
+        <li>
+            <a href="#" class="sk">S.Korea</a>
+        </li>
+        <li>
+            <a href="#" class="cn">China</a>
+        </li>
+        </ul>
+        
+    </div> 
+      <nav class="navbar">  
+        <a href="index.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="blogs.html">blogs</a>
+        <div class="fas fa-search" id="search-btn"></div> 
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+      </div>
+      </nav>
+      <form action="" class="search-form">
+          <input type="search" id="search-box" placeholder="search here.....">
+          <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <h2>Login</h2>
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+      
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+              
+            <button type="submit">Login</button>
+            <label>
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+          </div>
+      
+          <div class="container" style="background-color:#f1f1f1">
+            <span class="sign-up"><a href="#">Sign Up</a></span>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading"> our <span>blogs</span> </h1>
+      <div class="box-container">
+  
+          <div class="box">
+              <img src="./images/blog-1.jpg" alt="">
+              <div class="content">
+                  <div class="icons">
+                      <a href="#"> <i class="fas fa-user"></i> by NewTimes </a>
+                      <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                  </div>
+                  <h3>Trending Everywhere</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                  <a href="#" class="btn">read more</a>
+              </div>
+          </div>
+  
+          <div class="box">
+              <img src="./images/blog-2.jpg" alt="">
+              <div class="content">
+                  <div class="icons">
+                      <a href="#"> <i class="fas fa-user"></i> by The Trending</a>
+                      <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                  </div>
+                  <h3>The New Outfit of Tommorow</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                  <a href="#" class="btn">read more</a>
+              </div>
+          </div>
+  
+          <div class="box">
+              <img src="./images/blog-3.jpg" alt="">
+              <div class="content">
+                  <div class="icons">
+                      <a href="#"> <i class="fas fa-user"></i> by Fashion Zone </a>
+                      <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2021 </a>
+                  </div>
+                  <h3>Style of 2022</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                  <a href="#" class="btn">read more</a>
+              </div>
+          </div>
+  
+      </div>
+  
+  </section>
+    <section class="review" id="review">
+
+      <h1 class="heading"> customer's <span>review</span> </h1>
+  
+      <div class="swiper review-slider">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide box">
+                  <img src="./images/pic-1.png" alt="">
+                  <p>This review page is excellent as it showcases customer photos at the top and then customer reviews below. Also, notice that the store is also replying to each customer review.</p>
+                  <h3>john deo</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+              <div class="swiper-slide box">
+                  <img src="./images/pic-2.png" alt="">
+                  <p>This review page is very clean and it allows customers to see all the necessary information within the reviews to be able to make a buying decision.</p>
+                  <h3>Jannett Silva</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+              <div class="swiper-slide box">
+                  <img src="./images/pic-3.png" alt="">
+                  <p>This store’s product reviews page was customized to match their store’s theme to make it a seamless addition to their website.
+
+                    The product reviews that have been left from customers are very detailed and some even included a photo they’ve taken which also helps to validate the product and brand.</p>
+                  <h3>Mark John</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+              <div class="swiper-slide box">
+                  <img src="./images/pic-4.png" alt="">
+                  <p>This review page has a clean look to it with a white background and colored text to match their brand.
+
+                    They also have the reviews center-aligned for easy reading and the company has also begun replying to reviews which is a must!</p>
+                  <h3>Marianne Rose</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+              </div>
+  
+          </div>
+  
+      </div>
+  
+  </section>
+  
+    <footer>
+  <div class="footer_info">
+    <div class="footer_width about">
+      <h7>About</h7>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque aspernatu
+          r nemo enim in quod 
+          esse corporis atque adipisci maiores iure molestiae volupta
+          tem aliquid voluptatum tempora voluptate officiis ullam consequatur cupiditate sed nesci
+          unt dolor, nihil sunt placeat. Inventore est quae fuga?
+      </p>
+      <div class="social-media">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_width link">
+      <h2></h2>
+      <ul>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer_width contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>
+          <span><i class="fas fa-map-marked-alt"></i></span><p><b></b>1298 Random Place, Avenue, PP 23123, Philippines
+            </p>
+      
+        </li>
+        <li>
+          <span><i class="far fa-envelope"></i></span>
+          <a href="#">RandomEmail@gmail.com</a>
+        </li>
+        <li>
+          <span><i class="fas fa-phone-volume"></i></span>
+          <a href="#">000 0000 000</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="copy-right">
+    <p>™Technoprenuership Porject by Digo</p>
+  </div>
+    </footer>
+
+
+    <script src="./assests/script.js"></script>
+
+  </body>
+</html>
